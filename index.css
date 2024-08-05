@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    background-image: url(https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.ball{
+    
+    position: relative;
+    animation: bounce 2s infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ball1{
+    margin-top: 300px;
+    margin-left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(83, 8, 21);
+    border-radius: 50px;
+    border: 2px solid purple;
+    position: relative;
+    animation: bounce 2s infinite;
+}
+.ball2{
+    margin-top: 200px;
+    background-color: green;
+    border-radius: 50px;
+    border: 2px solid yellow;
+    margin-left: 120px;
+    height: 100px;
+    position: relative;
+    width: 100px;
+    animation: bounce 2s infinite;
+}
+.ball3{
+    margin-top: 200px;
+    background-color: yellowgreen;
+    border-radius: 50px;
+    border: 2px solid yellow;
+    margin-left: 90px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation: bounce 2s infinite;
+}
+.ball4{
+    margin-top: 300px; 
+    background-color: orangered;
+    border-radius: 50px;
+    border: 2px solid yellow;
+    margin-left: 80px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation: bounce 2s infinite;
+}
+.ball5{
+    margin-top: 300px;
+    background-color: blue;
+    border-radius: 50px;
+    border: 2px solid yellow;
+    margin-left: 125px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation: bounce 2s infinite;
+} 
+
+@keyframes bounce{
+    0%, 100% {
+        top:0;
+        animation-timing-function: ease-in;
+    }
+    50% {
+        top:200px;
+        animation-timing-function: ease-out;
+    }
+}
